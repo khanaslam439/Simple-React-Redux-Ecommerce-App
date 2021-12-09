@@ -40,7 +40,6 @@ const EditProduct = (props) => {
       imgURL: url,
     };
 
-    localStorage.setItem("product", JSON.stringify([el, id]));
     props.updateProduct(id, el);
     setUpdate(true);
   }
