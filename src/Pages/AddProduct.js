@@ -18,7 +18,7 @@ const [url, setUrl] = useState("");
 const handleFormSubmit = (ev) => {
   ev.preventDefault()
   let obj = {
-    id: props.products.length,
+    id: props.products.length + 1,
     name,
     detail,
     price,
