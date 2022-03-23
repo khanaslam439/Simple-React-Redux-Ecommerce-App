@@ -11,7 +11,7 @@ import AddProduct from "./Pages/AddProduct";
 function App() {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ecommerce">
       <Routes>
         <Route path="/" element={ <Welcome /> } />
         <Route path="/login" element={<Login />} />
